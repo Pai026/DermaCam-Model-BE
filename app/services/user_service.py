@@ -1,8 +1,4 @@
-from ..db import user_collection,product_collection
-from .auth_service import AuthHandler
-from fastapi.encoders import jsonable_encoder
-from fastapi import HTTPException
-from bson.objectid import ObjectId
+from ..db import product_collection
 from tensorflow.keras.models import load_model
 from keras.preprocessing import image
 import urllib.request
